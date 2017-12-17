@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>PublicClass</Title>
-      <Shortcut>pc</Shortcut>
-      <Description>Code snippet for Public Class </Description>
+      <Title>Return Type Integer Method</Title>
+      <Shortcut>mi</Shortcut>
+      <Description>Code snippet for return type string method </Description>
       <Author>Farhad Rakib</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,36 +13,50 @@
     </Header>
     <Snippet>
       <Declarations>
-        
+
         <Literal>
           <ID>CreatedDate</ID>
           <ToolTip>Enter date of creation</ToolTip>
           <Default>[Insert Date]</Default>
         </Literal>
-        
+
         <Literal>
           <ID>Developer</ID>
           <ToolTip>Enter your name</ToolTip>
           <Default>[My Name]</Default>
         </Literal>
 
+
         <Literal>
-          <ID>ClassName</ID>
-          <ToolTip>Give Your Class Name</ToolTip>
-          <Default>Class</Default>
+          <ID>Description</ID>
+          <ToolTip>Enter your name</ToolTip>
+          <Default>[Description of Class]</Default>
         </Literal>
-        
+
+
+
+        <Literal>
+          <ID>MethodName</ID>
+          <ToolTip>Give Your Method Name</ToolTip>
+          <Default>Method</Default>
+        </Literal>
+
+
+
       </Declarations>
       <Code Language="csharp">
         <![CDATA[
          /*  
              Created Date : $CreatedDate$  
              Developer:    $Developer$
+             Description : $Description$
              
          */
-        public class $ClassName$
+        public int $MethodName$()
 	        {
-		       
+		      int returnInteger = 0;
+          
+          return returnInteger;
 	        }]]>
       </Code>
     </Snippet>
@@ -50,3 +64,5 @@
 
 
 </CodeSnippets>
+
+

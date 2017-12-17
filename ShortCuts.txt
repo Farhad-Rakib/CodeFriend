@@ -1,0 +1,56 @@
+###### Class  ############
+
+private Class : c
+public Class : pc
+Protected class : 
+
+
+##### Methods #######
+
+Return type String Methods:
+	Public: 
+	Private:
+	Protected: 
+
+Return type Integer Methods:
+	Public: 
+	Private:
+	Protected: 	
+	
+Return type Boolean Methods:
+	Public: 
+	Private:
+	Protected: 
+
+Return type Long Methods:
+	Public: 
+	Private:
+	Protected: 	
+
+##### Action Results #####
+**For GET use G
+** For POST use P
+Return type View() :
+	Public: 
+	Private:
+	Protected: 	
+	
+Return type PartialView() :
+	Public: 
+	Private:
+	Protected: 	
+
+Return type Json :
+	Public: 
+	Private:
+	Protected: 
+
+#### Variable Naming #####
+
+For String :	
+	
+For Integer:
+
+For Long:
+
+For Boolean :

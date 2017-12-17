@@ -7,3 +7,9 @@ G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.csproj.CoreComp
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.dll
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.pdb
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\extension.vsixmanifest
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\CommonClassTemplate.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\BooleanMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\IntMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\StringMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\LongMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\CommonMethod.snippet

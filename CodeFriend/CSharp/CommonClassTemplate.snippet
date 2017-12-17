@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>PublicClass</Title>
-      <Shortcut>pc</Shortcut>
-      <Description>Code snippet for Public Class </Description>
+      <Title>Common Class Template</Title>
+      <Shortcut>c</Shortcut>
+      <Description>Code snippet for common class </Description>
       <Author>Farhad Rakib</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,34 +15,50 @@
     </Header>
     <Snippet>
       <Declarations>
-        
+
         <Literal>
           <ID>CreatedDate</ID>
           <ToolTip>Enter date of creation</ToolTip>
           <Default>[Insert Date]</Default>
         </Literal>
-        
+
         <Literal>
           <ID>Developer</ID>
           <ToolTip>Enter your name</ToolTip>
           <Default>[My Name]</Default>
         </Literal>
 
+
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>Enter your name</ToolTip>
+          <Default>[Description of Class]</Default>
+        </Literal>
+
+        <Literal>
+          <ID>AccessModifier</ID>
+          <ToolTip>Give Your Class Name</ToolTip>
+          <Default>Class</Default>
+        </Literal>
+       
         <Literal>
           <ID>ClassName</ID>
           <ToolTip>Give Your Class Name</ToolTip>
           <Default>Class</Default>
         </Literal>
         
+  
+
       </Declarations>
       <Code Language="csharp">
         <![CDATA[
          /*  
              Created Date : $CreatedDate$  
              Developer:    $Developer$
+             Description : $Description$
              
          */
-        public class $ClassName$
+        $AccessModifier$ class $ClassName$
 	        {
 		       
 	        }]]>
