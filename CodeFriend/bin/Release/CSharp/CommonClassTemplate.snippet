@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Common Method</Title>
-      <Shortcut>m</Shortcut>
-      <Description>Code snippet for common method </Description>
+      <Title>Common Class Template</Title>
+      <Shortcut>c</Shortcut>
+      <Description>Code snippet for common class </Description>
       <Author>Farhad Rakib</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -32,32 +34,20 @@
           <ToolTip>Enter your name</ToolTip>
           <Default>[Description of Class]</Default>
         </Literal>
-        
+
         <Literal>
           <ID>AccessModifier</ID>
-          <ToolTip>Access Modifier(Public,Private,Protected)</ToolTip>
-          <Default>AccessModifier</Default>
+          <ToolTip>Give Your Class Name</ToolTip>
+          <Default>Class</Default>
+        </Literal>
+       
+        <Literal>
+          <ID>ClassName</ID>
+          <ToolTip>Give Your Class Name</ToolTip>
+          <Default>Class</Default>
         </Literal>
         
-        <Literal>
-          <ID>ReturnType</ID>
-          <ToolTip>Return Type(String,long,Int,Boolean)</ToolTip>
-          <Default>ReturnType</Default>
-        </Literal>
-
-        <Literal>
-          <ID>MethodName</ID>
-          <ToolTip>Give Your Method Name</ToolTip>
-          <Default>Method</Default>
-        </Literal>
-
-        <Literal>
-          <ID>ReturnValue</ID>
-          <ToolTip>Give Your Return Value</ToolTip>
-          <Default>ReturnValue</Default>
-        </Literal>
-
-
+  
 
       </Declarations>
       <Code Language="csharp">
@@ -68,11 +58,9 @@
              Description : $Description$
              
          */
-        $AccessModifier$ $ReturnType$ $MethodName$()
+        $AccessModifier$ class $ClassName$
 	        {
-		       $ReturnType$ returnValue;  //Initialize Return Value Here
-          
-          return returnValue;
+		       
 	        }]]>
       </Code>
     </Snippet>
@@ -80,5 +68,3 @@
 
 
 </CodeSnippets>
-
-

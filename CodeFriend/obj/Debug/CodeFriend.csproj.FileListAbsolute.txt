@@ -2,7 +2,6 @@ G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CSharp\publicClass.snippet
 G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\snippets.pkgdef
 G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\CodeFriend.vsix
 G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Debug\extension.vsixmanifest
-G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.csprojResolveAssemblyReference.cache
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.csproj.CoreCompileInputs.cache
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.dll
 G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Debug\CodeFriend.pdb

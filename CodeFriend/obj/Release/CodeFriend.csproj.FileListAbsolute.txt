@@ -1,0 +1,15 @@
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\PublicClass.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\CommonClassTemplate.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\BooleanMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\IntMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\StringMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\LongMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CSharp\CommonMethod.snippet
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\snippets.pkgdef
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\CodeFriend.vsix
+G:\Workspace\Personal\CodeFriend\CodeFriend\bin\Release\extension.vsixmanifest
+G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Release\CodeFriend.csprojResolveAssemblyReference.cache
+G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Release\CodeFriend.csproj.CoreCompileInputs.cache
+G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Release\CodeFriend.dll
+G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Release\CodeFriend.pdb
+G:\Workspace\Personal\CodeFriend\CodeFriend\obj\Release\extension.vsixmanifest

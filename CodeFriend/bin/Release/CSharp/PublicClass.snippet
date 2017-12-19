@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>PublicClass</Title>
+      <Shortcut>pc</Shortcut>
+      <Description>Code snippet for Public Class </Description>
+      <Author>Farhad Rakib</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        
+        <Literal>
+          <ID>CreatedDate</ID>
+          <ToolTip>Enter date of creation</ToolTip>
+          <Default>[Insert Date]</Default>
+        </Literal>
+        
+        <Literal>
+          <ID>Developer</ID>
+          <ToolTip>Enter your name</ToolTip>
+          <Default>[My Name]</Default>
+        </Literal>
+
+        <Literal>
+          <ID>ClassName</ID>
+          <ToolTip>Give Your Class Name</ToolTip>
+          <Default>Class</Default>
+        </Literal>
+        
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[
+         /*  
+             Created Date : $CreatedDate$  
+             Developer:    $Developer$
+             
+         */
+        public class $ClassName$
+	        {
+		       
+	        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+
+</CodeSnippets>

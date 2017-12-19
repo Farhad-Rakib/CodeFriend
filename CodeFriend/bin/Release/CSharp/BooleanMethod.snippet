@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Common Method</Title>
-      <Shortcut>m</Shortcut>
-      <Description>Code snippet for common method </Description>
+      <Title>Return Type Boolean Method</Title>
+      <Shortcut>mb</Shortcut>
+      <Description>Code snippet for return type boolean method </Description>
       <Author>Farhad Rakib</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -32,29 +32,13 @@
           <ToolTip>Enter your name</ToolTip>
           <Default>[Description of Class]</Default>
         </Literal>
-        
-        <Literal>
-          <ID>AccessModifier</ID>
-          <ToolTip>Access Modifier(Public,Private,Protected)</ToolTip>
-          <Default>AccessModifier</Default>
-        </Literal>
-        
-        <Literal>
-          <ID>ReturnType</ID>
-          <ToolTip>Return Type(String,long,Int,Boolean)</ToolTip>
-          <Default>ReturnType</Default>
-        </Literal>
+
+
 
         <Literal>
           <ID>MethodName</ID>
           <ToolTip>Give Your Method Name</ToolTip>
           <Default>Method</Default>
-        </Literal>
-
-        <Literal>
-          <ID>ReturnValue</ID>
-          <ToolTip>Give Your Return Value</ToolTip>
-          <Default>ReturnValue</Default>
         </Literal>
 
 
@@ -68,11 +52,11 @@
              Description : $Description$
              
          */
-        $AccessModifier$ $ReturnType$ $MethodName$()
+        public bool $MethodName$()
 	        {
-		       $ReturnType$ returnValue;  //Initialize Return Value Here
+		      bool returnBoolean = false;
           
-          return returnValue;
+          return returnBoolean;
 	        }]]>
       </Code>
     </Snippet>
@@ -80,5 +64,6 @@
 
 
 </CodeSnippets>
+
 
 

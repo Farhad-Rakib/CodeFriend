@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 109,
+    "Username": "farhad.rakib",
+    "Name": "Farhad Rakib",
+    "Email": "farhad.rakib@datasoft-bd.com",
+    "AvatarUrl": "http://www.gravatar.com/avatar/cc1254fbbcc52eb067fb94f16bb34175?s=80&d=identicon",
+    "PrivateToken": "-NUoCcz_1r7WDkZ1zpg4",
+    "Host": "http://192.168.1.15",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 1
+  }
+}
