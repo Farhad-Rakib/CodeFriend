@@ -9,10 +9,10 @@ Common Template : cls
 ##### Methods #######
 
 Return type String Methods:
-	Public: mstr
+	Public: mstrn
 
 Return type Integer Methods:
-	Public: mint
+	Public: mintr
 	
 	
 Return type Boolean Methods:
@@ -27,18 +27,18 @@ Common Template : m
 ** For GET use G
 ** For POST use P
 Return type View() :
-	Public: gam/pam
+	Public: gamv/pamv
 
 
 
 
 ####Coomment ShortCut####
 
-MultiLine Coomment : cmn
+MultiLine Coomment : cmnt
 
 #### Variable Naming #####
 
-For String : vs	
+For String : sv	
 	
 For Integer:vi
 
