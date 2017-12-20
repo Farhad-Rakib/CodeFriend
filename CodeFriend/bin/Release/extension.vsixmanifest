@@ -1,8 +1,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="CodeFriend.379f7a40-2b6b-4cd2-8e88-47065b3ef114" Version="1.0" Language="en-US" Publisher="TechMentor" />
+    <Identity Id="CodeFriend.379f7a40-2b6b-4cd2-8e88-47065b3ef114" Version="1.0" Language="en-US" Publisher="Farhad Rakib" />
     <DisplayName>CodeFriend</DisplayName>
-    <Description xml:space="preserve">Essential Code Snippet For Developers </Description>
+    <Description xml:space="preserve">Essential Code Snippet For .Net Developers </Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />

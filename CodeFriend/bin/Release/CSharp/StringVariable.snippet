@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
-
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Common Class Template</Title>
-      <Shortcut>cls</Shortcut>
-      <Description>Code snippet for common class </Description>
+      <Title>String Type Variable</Title>
+      <Shortcut>sv</Shortcut>
+      <Description>Code snippet for String Type Variable </Description>
       <Author>Farhad Rakib</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -33,38 +31,26 @@
           <ID>Description</ID>
           <ToolTip>Enter your name</ToolTip>
           <Default>[Description of Class]</Default>
-        </Literal>
-
+        </Literal>.
         <Literal>
-          <ID>AccessModifier</ID>
-          <ToolTip>Give Your Class Name</ToolTip>
-          <Default>Class</Default>
+          <ID>VariableName</ID>
+          <ToolTip>Enter your variable Name</ToolTip>
+          <Default>[Name Of Variable]</Default>
         </Literal>
-       
-        <Literal>
-          <ID>ClassName</ID>
-          <ToolTip>Give Your Class Name</ToolTip>
-          <Default>Class</Default>
-        </Literal>
-        
-  
 
       </Declarations>
       <Code Language="csharp">
         <![CDATA[
-         /*  
-             Created Date : $CreatedDate$  
-             Developer:    $Developer$
-             Description : $Description$
-             
-         */
-        $AccessModifier$ class $ClassName$
-	        {
-		       
-	        }]]>
+       
+
+      public String  $VariableName$;
+          ]]>
       </Code>
     </Snippet>
   </CodeSnippet>
 
 
 </CodeSnippets>
+
+
+

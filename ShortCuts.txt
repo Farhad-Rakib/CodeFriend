@@ -1,42 +1,40 @@
 ###### Class  ############
 
 
-public Class : pc
+public Class : pcls
 
-Common Template : c
+Common Template : cls
 
 
 ##### Methods #######
 
 Return type String Methods:
-	Public: ms
+	Public: mstr
 
 Return type Integer Methods:
-	Public: mi
+	Public: mint
 	
 	
 Return type Boolean Methods:
-	Public: mb
+	Public: mbl
 
 
 Return type Long Methods:
-	Public: ml
+	Public: mln
  	
 Common Template : m
 ##### Action Results #####
 ** For GET use G
 ** For POST use P
 Return type View() :
-	Public: gv/pv
-
-	Common Template: a
+	Public: gam/pam
 
 
-Return type Json :
-	Public: pj
-	
-	Common Template: j
 
+
+####Coomment ShortCut####
+
+MultiLine Coomment : cmn
 
 #### Variable Naming #####
 
@@ -48,6 +46,6 @@ For Long:vl
 
 For Boolean :vb
 
-Common Template: v
+Common Template: cmv
 
 ##### Ajax Call #####
