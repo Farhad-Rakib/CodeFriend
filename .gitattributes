@@ -1,2 +1,2 @@
 * linguist-vendored
-*.vsix linguist-vendored=false
+*.vsix linguist-language=Visual Studio Extension
