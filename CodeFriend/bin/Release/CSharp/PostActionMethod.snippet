@@ -1,75 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2017/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>Request Type POST Action Method</Title>
-			<Shortcut>pam</Shortcut>
-			<Description>Code snippet for Request Type POST Action method </Description>
-			<Author>Farhad Rakib</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-				<SnippetType>SurroundsWith</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Request Type POST Action Method</Title>
+      <Shortcut>pamv</Shortcut>
+      <Description>Code snippet for Request Type POST Action method </Description>
+      <Author>Farhad Rakib</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
 
-				<Literal>
-					<ID>CreatedDate</ID>
-					<ToolTip>Enter date of creation</ToolTip>
-					<Default>[Insert Date]</Default>
-				</Literal>
+        <Literal>
+          <ID>CreatedDate</ID>
+          <ToolTip>Enter date of creation</ToolTip>
+          <Default>[Insert Date]</Default>
+        </Literal>
 
-				<Literal>
-					<ID>Developer</ID>
-					<ToolTip>Enter your name</ToolTip>
-					<Default>[My Name]</Default>
-				</Literal>
-
-
-				<Literal>
-					<ID>Description</ID>
-					<ToolTip>Enter your name</ToolTip>
-					<Default>[Description of Class]</Default>
-				</Literal>
-
-				
-
-				<Literal>
-					<ID>ReturnType</ID>
-					<ToolTip>Return Type(String,long,Int,Boolean)</ToolTip>
-					<Default>ReturnType</Default>
-				</Literal>
-
-				<Literal>
-					<ID>MethodName</ID>
-					<ToolTip>Give Your Method Name</ToolTip>
-					<Default>Method</Default>
-				</Literal>
-
-		
+        <Literal>
+          <ID>Developer</ID>
+          <ToolTip>Enter your name</ToolTip>
+          <Default>[My Name]</Default>
+        </Literal>
 
 
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>Enter your name</ToolTip>
+          <Default>[Description of Class]</Default>
+        </Literal>
 
-			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[
-				 /*  
-						 Created Date : $CreatedDate$  
-						 Developer:    $Developer$
-						 Description : $Description$
-						 
-				 */
-			[HttpPost]
-			public ActionResult $MethodName$()
-					{
-					
-					
-					return view();
-					}]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+        
+
+        <Literal>
+          <ID>ReturnType</ID>
+          <ToolTip>Return Type(String,long,Int,Boolean)</ToolTip>
+          <Default>ReturnType</Default>
+        </Literal>
+
+        <Literal>
+          <ID>MethodName</ID>
+          <ToolTip>Give Your Method Name</ToolTip>
+          <Default>Method</Default>
+        </Literal>
+          
+          <Literal>
+          <ID>ReturnAction</ID>
+          <ToolTip>Give Your Method Name</ToolTip>
+          <Default>Action</Default>
+        </Literal>
+        
+        <Literal>
+          <ID>ReturnController</ID>
+          <ToolTip>Give Your Method Name</ToolTip>
+          <Default>Controller</Default>
+        </Literal>
+
+    
+
+
+
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[
+         /*  
+             Created Date : $CreatedDate$  
+             Developer:    $Developer$
+             Description : $Description$
+             
+         */
+      [HttpPost]
+      public ActionResult $MethodName$()
+          {
+          
+          
+          return  RedirectToAction("$ReturnAction$", "$ReturnController$");;
+          }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 
 
 </CodeSnippets>

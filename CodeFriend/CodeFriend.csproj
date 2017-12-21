@@ -47,6 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSharp\IntMethod.snippet">
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="CSharp\PublicClass.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -55,15 +59,11 @@
     <Content Include="CSharp\CommonClassTemplate.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="CSharp\BooleanMethod.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="CSharp\IntMethod.snippet">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="CSharp\StringMethod.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -90,26 +90,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="CSharp\BooleanVariable.snippet">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="CSharp\IntegerVariable.snippet">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="CSharp\LongVariable.snippet">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="CSharp\StringVariable.snippet">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="CSharp\CommonVariable.snippet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>

@@ -1,9 +1,9 @@
 ###### Class  ############
 
 
-public Class : pcls
+public Class : pclss
 
-Common Template : cls
+Common Template : clss
 
 
 ##### Methods #######
@@ -28,6 +28,9 @@ Common Template : m
 ** For POST use P
 Return type View() :
 	Public: gamv/pamv
+	
+	POST Type Action result : pamv
+	GET Type Action result : gamv
 
 
 
@@ -36,16 +39,7 @@ Return type View() :
 
 MultiLine Coomment : cmnt
 
-#### Variable Naming #####
 
-For String : sv	
-	
-For Integer:vi
-
-For Long:vl
-
-For Boolean :vb
 
 Common Template: cmv
 
-##### Ajax Call #####
