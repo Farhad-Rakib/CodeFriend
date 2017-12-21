@@ -1,2 +1,2 @@
 * linguist-vendored
-*.vsix linguist-language=Visual Studio Extension
+*.sln linguist-language=C#
