@@ -24,10 +24,7 @@ Return type Long Methods:
  	
 Common Template : m
 ##### Action Results #####
-** For GET use G
-** For POST use P
-Return type View() :
-	Public: gamv/pamv
+
 	
 	POST Type Action result : pamv
 	GET Type Action result : gamv
@@ -41,5 +38,5 @@ MultiLine Coomment : cmnt
 
 
 
-Common Template: cmv
+Common variable Template: cmv
 
